@@ -1,0 +1,4 @@
+fun ehPar(a: Int) = if (a%2 == 0) true else false
+fun main(){
+	println(ehPar(24))
+}

@@ -1,0 +1,9 @@
+fun String.inverte(): String{
+    return this.reversed()
+}
+fun main(){
+    var pala = "Kotlin"
+    println(pala)
+    pala = "Kotlin".inverte()
+    println(pala)
+}
